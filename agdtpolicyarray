@@ -1,0 +1,115 @@
+{
+    "steps": [
+        {
+            "listitem": "Rosetta",
+            "icon": "8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52",
+            "progresstext": "Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.",
+            "trigger_list": [
+                {
+                    "trigger": "rosettaInstall",
+                    "validation": "None"
+                },
+                {
+                    "trigger": "rosetta",
+                    "validation": "Local"
+                }
+            ]
+        },
+        {
+            "listitem": "FileVault Disk Encryption",
+            "icon": "f9ba35bd55488783456d64ec73372f029560531ca10dfa0e8154a46d7732b913",
+            "progresstext": "FileVault is built-in to macOS and provides full-disk encryption to help prevent unauthorized access to your Mac.",
+            "trigger_list": [
+                {
+                    "trigger": "filevault",
+                    "validation": "Local"
+                }
+            ]
+        },
+        {
+            "listitem": "Microsoft Office 365",
+            "icon": "9b1386b1a76e3b2efb25fa1dec03c92682d47f26371ef7e1189d98cb2fc0a4b9",
+            "progresstext": "Microsoft Office 365 is a productivity suite including Word, Excel, PowerPoint, Outlook, and more.",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTOffice",
+                    "validation": "/Applications/Microsoft Word.app/Contents/Info.plist"
+                }
+            ]
+        },
+        {
+            "listitem": "Google Chrome",
+            "icon": "202a28c135994883cd5745ad28ca86c3717d64751b5bf20e67258ec5f8f45350",
+            "progresstext": "Google Chrome is a browser that combines a minimal design with sophisticated technology to make the Web faster.",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTChrome",
+                    "validation": "/Applications/Google Chrome.app/Contents/Info.plist"
+                }
+            ]
+        },
+        {
+            "listitem": "Mozilla Firefox",
+            "icon": "5e5d2ac307c02999a3fb02455c0b00c4edaaa891f534fa72d3f1d14d8954e283",
+            "progresstext": "Mozilla Firefox is another browser that combines a minimal design with sophisticated technology to make the Web faster.",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTFirefox",
+                    "validation": "/Applications/Firefox.app/Contents/Info.plist"
+                }
+            ]
+        },
+        {
+            "listitem": "Zoom",
+            "icon": "92b8d3c448e7d773457532f0478a428a0662f694fbbfc6cb69e1fab5ff106d97",
+            "progresstext": "Zoom is a video conferencing software program developed by Zoom Video Communications.",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTZoom",
+                    "validation": "/Applications/zoom.us.app/Contents/Info.plist"
+                }
+            ]
+        },
+        {
+            "listitem": "Department Actions",
+            "icon": "6dd1cf6de4e91c26e7f88f5db2c0c403ff3e9f401067d0cfefc1b7178ffb51fa",
+            "progresstext": "Running actions specific to your department...",
+            "trigger_list": [
+                {
+                    "trigger": "deploy",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
+            "listitem": "Finalize Deployment",
+            "icon": "00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
+            "progresstext": "Finalizing the AGDT Jamf Pro Configuration...",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTFinalize",
+                    "validation": "None"
+                },
+                {
+                    "trigger": "finalConfiguration",
+                    "validation": "None"
+                },
+                {
+                    "trigger": "reconAtReboot",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
+            "listitem": "Update Inventory",
+            "icon": "ff2147a6c09f5ef73d1c4406d00346811a9c64c0b6b7f36eb52fcb44943d26f9",
+            "progresstext": "A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.",
+            "trigger_list": [
+                {
+                    "trigger": "recon",
+                    "validation": "None"
+                }
+            ]
+        }
+    ]
+}

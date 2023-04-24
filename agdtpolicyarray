@@ -6,7 +6,7 @@
             "progresstext": "Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.",
             "trigger_list": [
                 {
-                    "trigger": "rosettaInstall",
+                    "trigger": "AGDTRosetta2",
                     "validation": "None"
                 },
                 {

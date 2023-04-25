@@ -529,7 +529,7 @@ xxd -p -s 260 "$(defaults read /Library/Preferences/com.jamfsoftware.jamf self_s
 overlayicon="/var/tmp/overlayicon.icns"
 
 # Uncomment to use generic, Self Service icon as overlayicon
-# overlayicon="https://ics.services.jamfcloud.com/icon/hash_aa63d5813d6ed4846b623ed82acdd1562779bf3716f2d432a8ee533bba8950ee"
+overlayicon="https://ics.services.jamfcloud.com/icon/hash_aa63d5813d6ed4846b623ed82acdd1562779bf3716f2d432a8ee533bba8950ee"
 
 # Set initial icon based on whether the Mac is a desktop or laptop
 if system_profiler SPPowerDataType | grep -q "Battery Power"; then
@@ -832,7 +832,7 @@ function finalise(){
         updateScriptLog "Jamf Pro Policy Name Failures:"
         updateScriptLog "${jamfProPolicyNameFailures}"
 
-        dialogUpdateFailure "message: A failure has been detected, ${loggedInUserFirstname}.  \n\nPlease complete the following steps:\n1. Reboot and login to your Mac  \n2. Login to Self Service  \n3. Re-run any failed policy listed below  \n\nThe following failed:  \n${jamfProPolicyNameFailures}  \n\n\n\nIf you need assistance, please contact your local IT Department, and mention KB0002639 (https://kb.ucdavis.edu/?id=2639). "
+        dialogUpdateFailure "message: A failure has been detected, ${loggedInUserFirstname}.  \n\nPlease contact your local IT Department for assistance.  \n\nThe following failed:  \n${jamfProPolicyNameFailures}"
         dialogUpdateFailure "icon: SF=xmark.circle.fill,weight=bold,colour1=#BB1717,colour2=#F31F1F"
         dialogUpdateFailure "button1text: ${button1textCompletionActionOption}"
 

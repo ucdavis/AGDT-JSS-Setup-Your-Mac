@@ -520,7 +520,8 @@ welcomeJSON='
 title="Setting up ${loggedInUserFirstname}'s Mac"
 message="Please wait while the following apps are installed …"
 bannerImage="https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg"
-bannerText="Setting up ${loggedInUserFirstname}'s Mac"
+# bannerText="Setting up ${loggedInUserFirstname}'s Mac"
+bannerText=""
 helpmessage="If you need assistance, please contact your local IT Department.  \n- **Knowledge Base Article:** https://kb.ucdavis.edu/?id=2639  \n\n**Computer Information:**  \n- **Operating System:**  ${macOSproductVersion} (${macOSbuildVersion})  \n- **Serial Number:** ${serialNumber}  \n- **Dialog:** ${dialogVersion}  \n- **Started:** ${timestamp}"
 infobox="Analyzing input …" # Customize at "Update Setup Your Mac's infobox"
 

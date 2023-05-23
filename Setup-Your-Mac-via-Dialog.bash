@@ -546,8 +546,8 @@ fi
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
 dialogSetupYourMacCMD="$dialogBinary \
---bannerimage \"$bannerImage\" \
---bannertext \"$bannerText\" \
+#--bannerimage \"$bannerImage\" \
+#--bannertext \"$bannerText\" \
 --title \"$title\" \
 --message \"$message\" \
 --helpmessage \"$helpmessage\" \

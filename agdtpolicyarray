@@ -7,6 +7,10 @@
             "trigger_list": [
                 {
                     "trigger": "AGDTRosetta2",
+                    "validation": "None"
+                },
+                {
+                    "trigger": "rosetta",
                     "validation": "Local"
                 }
             ]

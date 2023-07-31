@@ -107,7 +107,7 @@
             "trigger_list": [
                 {
                     "trigger": "recon",
-                    "validation": "None"
+                    "validation": "recon"
                 }
             ]
         }

@@ -1,6 +1,17 @@
 {
     "steps": [
         {
+            "listitem": "Prepare Device",
+            "icon": "00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
+            "progresstext": "Preparing your device for deployment...",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTPrepare",
+                    "validation": "None"
+                }
+            ]
+        },
+        {
             "listitem": "Rosetta",
             "icon": "8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52",
             "progresstext": "Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.",

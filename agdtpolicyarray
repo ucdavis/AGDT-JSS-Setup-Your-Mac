@@ -2,7 +2,7 @@
     "steps": [
         {
             "listitem": "Deployment Prerequisites",
-            "icon": "00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
+            "icon": "a9d8b9664ed2007a573acc3e9e232a63c16f3a159621a4f3eabd01bcb09fc091",
             "progresstext": "Preparing your device for deployment...",
             "trigger_list": [
                 {

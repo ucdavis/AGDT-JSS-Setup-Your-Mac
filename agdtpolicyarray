@@ -83,7 +83,7 @@
         },
         {
             "listitem": "Department Actions",
-            "icon": "6dd1cf6de4e91c26e7f88f5db2c0c403ff3e9f401067d0cfefc1b7178ffb51fa",
+            "icon": "8ebb9dfab0e78dce38bf0588e04e34ba5dd8841117260dfe8df19c66e50b185b",
             "progresstext": "Running actions specific to your department...",
             "trigger_list": [
                 {

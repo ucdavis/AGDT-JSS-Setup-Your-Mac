@@ -2,7 +2,7 @@
     "steps": [
         {
             "listitem": "Deployment Prerequisites",
-            "icon": "a9d8b9664ed2007a573acc3e9e232a63c16f3a159621a4f3eabd01bcb09fc091",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_a9d8b9664ed2007a573acc3e9e232a63c16f3a159621a4f3eabd01bcb09fc091",
             "progresstext": "Preparing your device for deployment...",
             "trigger_list": [
                 {
@@ -13,7 +13,7 @@
         },
         {
             "listitem": "Rosetta",
-            "icon": "8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_8bac19160fabb0c8e7bac97b37b51d2ac8f38b7100b6357642d9505645d37b52",
             "progresstext": "Rosetta enables a Mac with Apple silicon to use apps built for a Mac with an Intel processor.",
             "trigger_list": [
                 {
@@ -28,7 +28,7 @@
         },
         {
             "listitem": "FileVault Disk Encryption",
-            "icon": "f9ba35bd55488783456d64ec73372f029560531ca10dfa0e8154a46d7732b913",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_f9ba35bd55488783456d64ec73372f029560531ca10dfa0e8154a46d7732b913",
             "progresstext": "FileVault is built-in to macOS and provides full-disk encryption to help prevent unauthorized access to your Mac.",
             "trigger_list": [
                 {
@@ -39,7 +39,7 @@
         },
         {
             "listitem": "Microsoft Office 365",
-            "icon": "9b1386b1a76e3b2efb25fa1dec03c92682d47f26371ef7e1189d98cb2fc0a4b9",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_9b1386b1a76e3b2efb25fa1dec03c92682d47f26371ef7e1189d98cb2fc0a4b9",
             "progresstext": "Microsoft Office 365 is a productivity suite including Word, Excel, PowerPoint, Outlook, and more.",
             "trigger_list": [
                 {
@@ -50,7 +50,7 @@
         },
         {
             "listitem": "Google Chrome",
-            "icon": "202a28c135994883cd5745ad28ca86c3717d64751b5bf20e67258ec5f8f45350",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_202a28c135994883cd5745ad28ca86c3717d64751b5bf20e67258ec5f8f45350",
             "progresstext": "Google Chrome is a browser that combines a minimal design with sophisticated technology to make the Web faster.",
             "trigger_list": [
                 {
@@ -61,7 +61,7 @@
         },
         {
             "listitem": "Mozilla Firefox",
-            "icon": "5e5d2ac307c02999a3fb02455c0b00c4edaaa891f534fa72d3f1d14d8954e283",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_5e5d2ac307c02999a3fb02455c0b00c4edaaa891f534fa72d3f1d14d8954e283",
             "progresstext": "Mozilla Firefox is another browser that combines a minimal design with sophisticated technology to make the Web faster.",
             "trigger_list": [
                 {
@@ -72,7 +72,7 @@
         },
         {
             "listitem": "Zoom",
-            "icon": "92b8d3c448e7d773457532f0478a428a0662f694fbbfc6cb69e1fab5ff106d97",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_92b8d3c448e7d773457532f0478a428a0662f694fbbfc6cb69e1fab5ff106d97",
             "progresstext": "Zoom is a video conferencing software program developed by Zoom Video Communications.",
             "trigger_list": [
                 {
@@ -83,7 +83,7 @@
         },
         {
             "listitem": "Department Actions",
-            "icon": "6094bee1b23e92f36c245c216cace84a3875b50577f07637433d58118d0fafa4",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_6094bee1b23e92f36c245c216cace84a3875b50577f07637433d58118d0fafa4",
             "progresstext": "Running actions specific to your department...",
             "trigger_list": [
                 {
@@ -94,7 +94,7 @@
         },
         {
             "listitem": "Finalize Deployment",
-            "icon": "00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
             "progresstext": "Finalizing the AGDT Jamf Pro Configuration...",
             "trigger_list": [
                 {
@@ -113,7 +113,7 @@
         },
         {
             "listitem": "Update Inventory",
-            "icon": "ff2147a6c09f5ef73d1c4406d00346811a9c64c0b6b7f36eb52fcb44943d26f9",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_ff2147a6c09f5ef73d1c4406d00346811a9c64c0b6b7f36eb52fcb44943d26f9",
             "progresstext": "A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.",
             "trigger_list": [
                 {

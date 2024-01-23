@@ -39,7 +39,7 @@
         },
         {
             "listitem": "Microsoft Office 365",
-            "https://ics.services.jamfcloud.com/icon/hash_9b1386b1a76e3b2efb25fa1dec03c92682d47f26371ef7e1189d98cb2fc0a4b9",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_9b1386b1a76e3b2efb25fa1dec03c92682d47f26371ef7e1189d98cb2fc0a4b9",
             "progresstext": "Microsoft Office 365 is a productivity suite including Word, Excel, PowerPoint, Outlook, and more.",
             "trigger_list": [
                 {
@@ -50,7 +50,7 @@
         },
         {
             "listitem": "Google Chrome",
-            "https://ics.services.jamfcloud.com/icon/hash_202a28c135994883cd5745ad28ca86c3717d64751b5bf20e67258ec5f8f45350",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_202a28c135994883cd5745ad28ca86c3717d64751b5bf20e67258ec5f8f45350",
             "progresstext": "Google Chrome is a browser that combines a minimal design with sophisticated technology to make the Web faster.",
             "trigger_list": [
                 {
@@ -61,7 +61,7 @@
         },
         {
             "listitem": "Mozilla Firefox",
-            "https://ics.services.jamfcloud.com/icon/hash_5e5d2ac307c02999a3fb02455c0b00c4edaaa891f534fa72d3f1d14d8954e283",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_5e5d2ac307c02999a3fb02455c0b00c4edaaa891f534fa72d3f1d14d8954e283",
             "progresstext": "Mozilla Firefox is another browser that combines a minimal design with sophisticated technology to make the Web faster.",
             "trigger_list": [
                 {
@@ -72,7 +72,7 @@
         },
         {
             "listitem": "Zoom",
-            "https://ics.services.jamfcloud.com/icon/hash_92b8d3c448e7d773457532f0478a428a0662f694fbbfc6cb69e1fab5ff106d97",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_92b8d3c448e7d773457532f0478a428a0662f694fbbfc6cb69e1fab5ff106d97",
             "progresstext": "Zoom is a video conferencing software program developed by Zoom Video Communications.",
             "trigger_list": [
                 {
@@ -83,7 +83,7 @@
         },
         {
             "listitem": "Department Actions",
-            "https://ics.services.jamfcloud.com/icon/hash_6094bee1b23e92f36c245c216cace84a3875b50577f07637433d58118d0fafa4",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_6094bee1b23e92f36c245c216cace84a3875b50577f07637433d58118d0fafa4",
             "progresstext": "Running actions specific to your department...",
             "trigger_list": [
                 {
@@ -94,7 +94,7 @@
         },
         {
             "listitem": "Finalize Deployment",
-            "https://ics.services.jamfcloud.com/icon/hash_00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_00d7c19b984222630f20b6821425c3548e4b5094ecd846b03bde0994aaf08826",
             "progresstext": "Finalizing the AGDT Jamf Pro Configuration...",
             "trigger_list": [
                 {
@@ -113,7 +113,7 @@
         },
         {
             "listitem": "Update Inventory",
-            "https://ics.services.jamfcloud.com/icon/hash_ff2147a6c09f5ef73d1c4406d00346811a9c64c0b6b7f36eb52fcb44943d26f9",
+            "icon": "https://ics.services.jamfcloud.com/icon/hash_ff2147a6c09f5ef73d1c4406d00346811a9c64c0b6b7f36eb52fcb44943d26f9",
             "progresstext": "A listing of your Mac’s apps and settings — its inventory — is sent automatically to the Jamf Pro server daily.",
             "trigger_list": [
                 {

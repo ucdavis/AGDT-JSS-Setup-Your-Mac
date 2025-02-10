@@ -38,6 +38,17 @@
             ]
         },
         {
+            "listitem": "Trellix Endpoint Security",
+            "icon": "https://use2.ics.services.jamfcloud.com/icon/hash_a240d71df8bfb54da50e0eb8cd46ad3d1c40cbe195c0b5cde0f91f9bebd95603",
+            "progresstext": "Trellix is the UC-approved Endpoint Security software to help prevent, detect, and respond to advanced threats.",
+            "trigger_list": [
+                {
+                    "trigger": "AGDTTrellix",
+                    "validation": "/Applications/FireEye Helper.app/Contents/Info.plist"
+                }
+            ]
+        },
+        {
             "listitem": "Microsoft Office 365",
             "icon": "https://ics.services.jamfcloud.com/icon/hash_9b1386b1a76e3b2efb25fa1dec03c92682d47f26371ef7e1189d98cb2fc0a4b9",
             "progresstext": "Microsoft Office 365 is a productivity suite including Word, Excel, PowerPoint, Outlook, and more.",
